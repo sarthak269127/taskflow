@@ -55,7 +55,7 @@ TaskFlow/
 ## 🌐 Live Demo
 
 ```
-https://sarthak269127.github.io/taskflow/tasks.html
+https://sarthak269127.github.io/taskflow
 ```
 
 ---
