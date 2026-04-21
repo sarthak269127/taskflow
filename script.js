@@ -114,24 +114,11 @@ function saveTasks() {
 window.onload = function () {
     let saved = localStorage.getItem("tasks");
 
-    // Default tasks (first time only)
-    let defaultTasks = [
-        { text: "Finish CS50 Homepage", completed: false },
-        { text: "Revise Chemistry (Amines)", completed: false },
-        { text: "Practice Math Problems", completed: true }
-    ];
-
-    // Use defaults if no data OR empty array
-    if (saved === null || JSON.parse(saved).length === 0) {
-        tasks = defaultTasks;
-        saveTasks();
-    } else {
-        tasks = JSON.parse(saved);
-    }
+    // Load saved tasks or start empty
+    tasks = saved ? JSON.parse(saved) : [];
 
     renderTasks();
 
-    // Enable Enter key to add task
     document.getElementById("taskInput").addEventListener("keypress", function (e) {
         if (e.key === "Enter") {
             addTask();
