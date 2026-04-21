@@ -1,0 +1,32 @@
+HTML Tags Used (10):
+
+1. html – Root element of the webpage
+2. head – Contains metadata and links to CSS/JS
+3. body – Contains all visible content
+4. nav – Used for the navigation bar
+5. section – Groups content into sections (hero, features, contact)
+6. div – Used for layout and grouping elements
+7. h1 – Main headings
+8. p – Paragraph text
+9. a – Navigation links between pages
+10. button – Used for actions like adding or deleting tasks
+
+---
+
+CSS Properties Used (5):
+
+1. background – Sets background colors and gradients
+2. color – Defines text color
+3. padding – Adds space inside elements
+4. margin – Adds space outside elements
+5. border-radius – Creates rounded corners
+
+---
+
+JavaScript:
+JavaScript is used to dynamically manage tasks by allowing users to add, delete, and mark tasks as completed, while storing data in localStorage.
+
+---
+
+Bootstrap:
+Bootstrap is used to create a responsive and modern layout with components like the navbar, grid system, buttons, and cards.
