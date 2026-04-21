@@ -1,0 +1,189 @@
+/* ================= GLOBAL ================= */
+body {
+  background: #f5f7fb;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* ================= HERO ================= */
+.hero {
+  padding: 100px 0;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #5b3df5;
+}
+
+.subtitle {
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* ================= ICON CIRCLE ================= */
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: rgba(91, 61, 245, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 24px;
+  color: #5b3df5;
+}
+
+/* ================= BUTTON ================= */
+.btn-gradient {
+  padding: 12px 24px;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(45deg, #7b2ff7, #2b6df6);
+  border: none;
+  font-weight: 500;
+}
+
+/* Hover glow effect */
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(123, 47, 247, 0.3);
+}
+
+/* ================= NAVBAR ================= */
+.ms-auto {
+  display: flex;
+  gap: 20px;
+}
+
+/* ================= FEATURE CARDS ================= */
+.feature-card,
+.feature-box {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+/* Hover lift effect */
+.feature-card:hover,
+.feature-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+/* ================= TASKS ================= */
+
+/* Center card */
+.tasks-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Task card */
+.task-card {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Task items */
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+/* Hover effect */
+.list-group-item:hover {
+  transform: scale(1.02);
+  background: #fafafa;
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+
+/* ================= FEATURES PAGE ================= */
+.features-section {
+  padding: 80px 0;
+}
+
+.features-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #5b3df5;
+}
+
+.features-subtitle {
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* Icons */
+.icon {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Special purple icon */
+.icon.purple {
+  background: rgba(91, 61, 245, 0.1);
+  color: #5b3df5;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+/* CTA box */
+.cta-box {
+  padding: 50px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, #7b2ff7, #2b6df6);
+  color: white;
+}
+
+/* ================= CONTACT ================= */
+.contact-section {
+  padding: 80px 0;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #5b3df5;
+}
+
+.contact-subtitle {
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* Contact card */
+.contact-card {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}

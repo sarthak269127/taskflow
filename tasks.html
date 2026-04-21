@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <title>TaskFlow - Tasks</title>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                ✓ TaskFlow
+            </a>
+
+            <!-- Mobile toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="ms-auto">
+                    <a class="nav-link d-inline mx-2" href="index.html">Home</a>
+                    <a class="nav-link d-inline mx-2 fw-semibold text-primary" href="tasks.html">Tasks</a>
+                    <a class="nav-link d-inline mx-2" href="features.html">Features</a>
+                    <a class="nav-link d-inline mx-2" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ================= TASK SECTION ================= -->
+    <!-- Main task app container -->
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+        <div class="card shadow-lg p-4 w-100" style="max-width: 500px; border-radius: 15px;">
+
+            <!-- Title -->
+            <h2 class="text-center mb-2">My Tasks</h2>
+
+            <!-- Task counter -->
+            <p id="taskCount" class="text-center text-muted">0 tasks remaining</p>
+
+            <!-- Input + Button -->
+            <div class="input-group mb-3">
+                <input
+                    type="text"
+                    id="taskInput"
+                    class="form-control"
+                    placeholder="Add a new task..."
+                >
+                <button class="btn btn-primary" onclick="addTask()">
+                    + Add
+                </button>
+            </div>
+
+            <!-- Small UX hint -->
+            <small class="text-muted mb-3 d-block text-center">
+                Press Enter to quickly add tasks
+            </small>
+
+            <!-- Task List -->
+            <ul id="taskList" class="list-group"></ul>
+
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="text-center mt-4 py-3 text-muted">
+        <small>© 2026 TaskFlow</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
