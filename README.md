@@ -54,17 +54,9 @@ TaskFlow/
 
 ## 🌐 Live Demo
 
-👉 Add your link here after deployment:
-
 ```
-https://yourusername.github.io/taskflow/
+https://sarthak269127.github.io/taskflow/tasks.html
 ```
-
----
-
-## 📸 Screenshots
-
-*(Optional – add later if you want)*
 
 ---
 
